@@ -1,0 +1,23 @@
+.countries__country-info {
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 20px;
+}
+.countries__country-flag {
+    cursor: pointer;
+    min-height: 160px;
+    img {
+        width: 100%;
+        min-height: 180px;
+        max-height: 220px;
+        object-fit: cover;
+    }
+}
+.countries__country-description {
+    padding: 10px 20px 10px 20px;
+}
+.countries__country-name {
+    margin: 5px 0;
+}

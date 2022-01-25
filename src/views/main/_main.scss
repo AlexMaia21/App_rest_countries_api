@@ -1,0 +1,68 @@
+.main {
+    padding: 20px 0;
+    background: $light-mode-background;
+    min-height: calc(100vh - 70px);
+    &__form {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        @media screen and (max-width: 496px) {
+            display: block;
+        }
+    }
+    .form__search-country {
+        position: relative;
+    }
+    .form__search-country input {
+        outline: transparent;
+        max-width: 350px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+        padding: 12px 0 12px 38px;
+        font-weight: 600;
+        @media screen and (max-width: 496px) {
+            min-width: 100%;
+        }
+    }
+    .form__search-country input:focus {
+        border: 1px solid black;
+    }
+    .form__search-country input::placeholder {
+        font-size: .9em;
+    }
+    .form__icon-search-country {
+        position: absolute;
+        top: 12px;
+        left: 15px;
+        font-size: 1.1em;
+    }
+    .form__choose-continent--choose {
+        outline: transparent;
+        border: none;
+        box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        max-width: 200px;
+        padding-left: 10px;
+        font-weight: 600;
+        option {font-weight: 600;}
+        @media screen and (max-width: 496px) {
+            margin-top: 25px;
+            padding: 10px;
+        }
+    }
+    &__countries {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(4 , minmax(270px,1fr));
+        @media screen and (max-width: 1094px) {
+            grid-template-columns: repeat(3 , minmax(270px,1fr));
+        }
+        @media screen and (max-width: 824px){
+            grid-template-columns: repeat(2 , minmax(270px,1fr));
+        }
+        @media screen and (max-width: 550px){
+            grid-template-columns: repeat(1 , minmax(100px,1fr));
+        }
+    }
+}

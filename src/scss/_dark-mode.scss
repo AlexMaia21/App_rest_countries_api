@@ -1,0 +1,24 @@
+#app.dark,
+#app.dark a,
+#app.dark input,
+#app.dark input::placeholder,
+#app.dark select,
+#app.dark option,
+#app.dark button {
+    color: $white;
+}
+
+#app.dark .header,
+#app.dark .countries__country-info,
+#app.dark input,
+#app.dark select,
+#app.dark option,
+#app.dark .form__choose-continent--choose {
+    background: $dark-mode-elements;
+}
+
+#app.dark .main,
+#app.dark .page-info,
+#app.dark .page-info .page-info__btn-back--to-back {
+    background: $dark-mode-background;
+}

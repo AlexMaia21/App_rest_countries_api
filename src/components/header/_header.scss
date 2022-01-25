@@ -1,0 +1,23 @@
+.header {
+    padding: 0 20px;
+    height: 70px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1000;
+    &__container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo-text span {
+        font-weight: 800;
+        font-size: 1.3em;
+        @media screen and (max-width: 360px) {
+            font-size: 1em;
+        }
+    }
+    &__btn-dark--dark {
+        cursor: pointer;
+    }
+}
