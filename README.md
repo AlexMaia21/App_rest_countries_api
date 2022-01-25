@@ -4,7 +4,7 @@
 
 #### Developed by Alex Maia 🚀
 
-<h1 align="center">  <img alt="dashboard" src="./assets/screenshots/screenshot.png"/> </h1>
+<h1 align="center">  <img alt="dashboard" src="src/assets/screenshots/screenshot.png"/> </h1>
 
 ### Resources used:
 
